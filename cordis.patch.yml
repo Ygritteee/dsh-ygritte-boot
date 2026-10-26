@@ -1,0 +1,9 @@
+# Bundle patch for @local/ygritte-boot.
+#
+# This row mounts the plugin on the Host; the package's `dsh.client` block in
+# package.json is what gets the browser half served and loaded by the Web GUI.
+# Both blocks are required: a package that declares only `dsh.client` is not a
+# profile layer and cannot be enabled as a bundle.
+- insert:
+    - id: ygritte-boot
+      name: 'dsh-ygritte-boot'
