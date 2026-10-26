@@ -1430,7 +1430,7 @@ window.__ModuleLoader__.load({
 		var h = React.createElement
 
 		var PACKAGE = 'dsh-ygritte-boot'
-		var VERSION = '1.3.0'
+		var VERSION = '1.3.1'
 		var MODE_KEY = 'ygritte-boot:mode'
 		var AUTO_KEY = 'ygritte-boot:auto'
 		var STYLE_ID = 'ygritte-boot-settings'

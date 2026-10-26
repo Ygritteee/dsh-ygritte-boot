@@ -1,10 +1,19 @@
-# @local/ygritte-boot
+# dsh-ygritte-boot
 
 **给 DeepSeek Harness 加一段「冰与火」开机片头，接一张 Ygritte 的自由民身份授权卡。**
 
 打开 DSH 的第一眼：上冷下热的冰霜/余烬温度场、霜雪与火星双向流动、双色 Ygritte 词标与纹章，然后是启动日志、发丝进度与一次五步身份核验。核验对象是一名为自由民工作的游骑兵 —— **Ygritte**，编号 `YGRT-0117`。点击或按 `Enter` 快进，`Esc` 随时跳过；设置里可以换档、关掉或立刻预览。
 
-> 这是本地插件（`@local/ygritte-boot`），按本仓库的开发流程安装在 `desktop` profile 上。
+> 发布包名：`dsh-ygritte-boot`（npm / 插件市场）。本工作区的 `@local/ygritte-boot` 是本地开发副本，两者代码相同。
+
+---
+
+## 安装
+
+- **DSH Desktop**：设置 → 插件 → 安装 → 输入 `dsh-ygritte-boot`（装完重启/刷新客户端）
+- **命令行**：`dsh plugin --profile <profile> add dsh-ygritte-boot`
+- **插件市场**：dsh-market「发现」或官方 Discover 搜 `Ygritte`（收录后）
+- **本地开发**：见下方「安装 / 启用」的 `link:` 流程
 
 ---
 
