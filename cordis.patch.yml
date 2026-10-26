@@ -1,4 +1,4 @@
-# Bundle patch for @local/ygritte-boot.
+# Bundle patch for dsh-ygritte-boot.
 #
 # This row mounts the plugin on the Host; the package's `dsh.client` block in
 # package.json is what gets the browser half served and loaded by the Web GUI.
